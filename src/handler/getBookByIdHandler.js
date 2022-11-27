@@ -22,4 +22,4 @@ const getBookByIdHandler = (request, h) => {
     return response;
 }
 
-module.exports = getBookByIdHandler;
+module.exports = {getBookByIdHandler};

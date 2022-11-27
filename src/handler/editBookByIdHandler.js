@@ -53,4 +53,4 @@ const editBookByIdHandler = (request, h) => {
     return response
 }
 
-module.exports = editBookByIdHandler;
+module.exports = {editBookByIdHandler};

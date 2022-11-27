@@ -62,4 +62,4 @@ const addBookHandler = (request, h) => {
     return response;
 }
 
-module.exports = addBookHandler;
+module.exports = {addBookHandler};

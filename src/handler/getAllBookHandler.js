@@ -32,4 +32,4 @@ const getAllBookHandler = (request, h) => {
     return response;
 }
 
-module.exports = getAllBookHandler;
+module.exports = {getAllBookHandler};

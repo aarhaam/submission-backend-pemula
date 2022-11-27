@@ -25,4 +25,4 @@ const deleteBookByIdHandler = (request, h) => {
     return response
 }
 
-module.exports = deleteBookByIdHandler
+module.exports = {deleteBookByIdHandler}
